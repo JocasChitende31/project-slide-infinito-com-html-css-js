@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Slide Pensador</title>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="slide-wrapper" data-slide="wrapper">
+            <button class="slide-nav-button slide-nav-previous fa-solid fa-chevron-left"
+                data-slide="nav-previous-button"></button>
+            <button class="slide-nav-button slide-nav-next fa-solid fa-chevron-right"
+                data-slide="nav-next-button"></button>
+            <div class="slide-list" data-slide="list">
+                <div class="slide-item" data-slide="item" data-index="0">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./assets/image/image1.jpg" alt="realidade social">
+                        <div class="slide-description">
+                            <h3>Realidade Virtual</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, iure.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="1">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./assets/image/image2.jpeg" alt="realidade social">
+                        <div class="slide-description">
+                            <h3>Ext. Universitária</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, iure.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="2">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./assets/image/image3.jpg" alt="realidade social">
+                        <div class="slide-description">
+                            <h3>Olhar Científico</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, iure.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="3">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./assets/image/image2.jpeg" alt="realidade social">
+                        <div class="slide-description">
+                            <h3>Ext. Universitária</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, iure.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="4">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./assets/image/image1.jpg" alt="realidade social">
+                        <div class="slide-description">
+                            <h3>Realidade Virtual</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, iure.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="5">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./assets/image/image2.jpeg" alt="realidade social">
+                        <div class="slide-description">
+                            <h3>Ext. Universitária</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, iure.</p>
+                        </div>
+                    </div>
+                </div>
+               
+
+            </div>
+            <div class="slide-controls" data-slide="controls-wrapper">
+            </div>
+        </div>
+    </div>
+    <script src="/assets/js/slide.js"></script>
+    <script>
+        initSlide({
+            startAtIndex: 0,
+            autoPlay: true,
+            timeInterval: 1000
+        })
+    </script>
+</body>
+
+</html>
